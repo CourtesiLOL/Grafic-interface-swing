@@ -45,7 +45,6 @@ public class MainControler {
             public void mousePressed(MouseEvent e) {
                 mouseX = e.getX();
                 mouseY = e.getY();
-                System.out.println("se mueve a: x:"+mouseX+" y:"+mouseY );
             }
         });
 
@@ -54,7 +53,7 @@ public class MainControler {
             public void mouseDragged(MouseEvent e) {
                 int x = e.getXOnScreen();
                 int y = e.getYOnScreen();
-                System.out.println("se mueve a: x:"+x+" y:"+y);
+                //System.out.println("se mueve a: x:"+x+" y:"+y);
                 view.setLocation(x - mouseX, y - mouseY);
             }
         });

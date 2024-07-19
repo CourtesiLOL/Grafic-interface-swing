@@ -25,12 +25,13 @@ public class MainView extends JFrame {
     public MainView() {
         
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
         setUndecorated(true);
         setResizable(true);
 
         initComponents();
         
+
+        setLocationRelativeTo(null);
 
     }
 
